@@ -9,12 +9,35 @@
     tools:showIn="@layout/app_bar_main">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_width="405dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="224dp"
+        android:text="@string/welcome_to_food_den_restaurant_here_we_have_different_kind_of_dishes_for_home_dilivery_or_to_sit_here_and_and_dine_with_your_loved_ones"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/first"
+            app:srcCompat="@drawable/breakfast" />
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

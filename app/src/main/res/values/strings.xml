@@ -6,4 +6,8 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="first">TODO</string>
+    <string name="welcome_to_food_den_restaurant_here_we_have_different_kind_of_dishes_for_home_dilivery_or_to_sit_here_and_and_dine_with_your_loved_ones">Welcome to Food Den Restaurant. Here we have different kind of dishes for home dilivery or to sit here and and dine with your loved ones</string>
+    <string name="food_den">Food Den</string>
+    <string name="food_den_android_com">Food.den@android.com</string>
 </resources>
