@@ -7,6 +7,7 @@
         <item
             android:id="@+id/Reservations"
             android:icon="@drawable/reservation"
+
             android:title="Reservations" />
         <item
             android:id="@+id/Menu"

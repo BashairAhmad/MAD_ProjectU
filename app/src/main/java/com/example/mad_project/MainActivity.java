@@ -83,19 +83,40 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.Reservations) {
             // Handle the camera action
+            Intent i = new Intent(this, Second.class);
 
-            Intent i = new Intent (this , reservations.class);
             startActivity(i);
         } else if (id == R.id.Menu) {
+            Intent i = new Intent(this, Second.class);
+
+            startActivity(i);
 
         } else if (id == R.id.Home_Delivery) {
+            Intent i = new Intent(this, Second.class);
 
+            startActivity(i);
         } else if (id == R.id.nav_manage) {
+            Intent i = new Intent(this, Second.class);
 
+            startActivity(i);
         } else if (id == R.id.nav_share) {
+            Intent i = new Intent(this, Second.class);
 
+            startActivity(i);
         } else if (id == R.id.nav_send) {
+            Intent i = new Intent(this, Second.class);
 
+            startActivity(i);
+        }
+        else if (id == R.id.login) {
+            Intent i = new Intent(this, login.class);
+
+            startActivity(i);
+        }
+        else if (id == R.id.sign_up) {
+            Intent i = new Intent(this, Signin.class);
+
+            startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

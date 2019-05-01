@@ -16,8 +16,9 @@
         android:layout_marginLeft="4dp"
         android:layout_marginBottom="224dp"
         android:text="@string/welcome_to_food_den_restaurant_here_we_have_different_kind_of_dishes_for_home_dilivery_or_to_sit_here_and_and_dine_with_your_loved_ones"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_dark"
         android:textSize="24sp"
-        app:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
@@ -37,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@string/first"
-            app:srcCompat="@drawable/breakfast" />
+            app:srcCompat="@drawable/food" />
     </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
