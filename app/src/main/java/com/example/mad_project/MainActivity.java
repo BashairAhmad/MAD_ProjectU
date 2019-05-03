@@ -83,11 +83,11 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.Reservations) {
             // Handle the camera action
-            Intent i = new Intent(this, Second.class);
+            Intent i = new Intent(this, reservation.class);
 
             startActivity(i);
         } else if (id == R.id.Menu) {
-            Intent i = new Intent(this, Second.class);
+            Intent i = new Intent(this,menu.class);
 
             startActivity(i);
 

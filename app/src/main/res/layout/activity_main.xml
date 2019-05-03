@@ -9,7 +9,7 @@
     tools:openDrawer="start"
     android:orientation="vertical"
 
-    android:background="@drawable/macros"
+    android:background="#8080"
     android:gravity="center_horizontal">
 
     <include
